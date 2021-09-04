@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5E15EF4E26C9E479008FB932 /* PasswordLockForTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E15EF4D26C9E479008FB932 /* PasswordLockForTypeViewController.swift */; };
+		5ECA875526DF035A00593428 /* Swift4ErrorTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECA875426DF035A00593428 /* Swift4ErrorTypeViewController.swift */; };
 		5ED1643726C23B890077878B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED1643626C23B890077878B /* AppDelegate.swift */; };
 		5ED1643926C23B890077878B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED1643826C23B890077878B /* SceneDelegate.swift */; };
 		5ED1643B26C23B890077878B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED1643A26C23B890077878B /* ViewController.swift */; };
@@ -26,9 +27,12 @@
 		5E70808926C4A41F000E3445 /* SwiftTour.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SwiftTour.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		5E70808A26C4E2A1000E3445 /* ObjectAndClass.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ObjectAndClass.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		5E70808B26C4E423000E3445 /* Enumerations&Structures.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Enumerations&Structures.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		5EA86EFA26DA120400EDD911 /* StringsAndCharacters.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = StringsAndCharacters.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		5EC0CCAA26C5E9F4001B613E /* Protocol&Extension.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Protocol&Extension.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		5EC0CCAB26C5EC75001B613E /* ErrorHandling.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ErrorHandling.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		5EC0CCAC26C5EF9A001B613E /* Generics.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Generics.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		5ECA875426DF035A00593428 /* Swift4ErrorTypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift4ErrorTypeViewController.swift; sourceTree = "<group>"; };
+		5ECA875626E04AA300593428 /* CollectionTypes.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CollectionTypes.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		5ED1643326C23B890077878B /* ConvinientWriting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConvinientWriting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ED1643626C23B890077878B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5ED1643826C23B890077878B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,7 +66,9 @@
 		5E4B38C426CC8A7900BDE00D /* BasicOperators */ = {
 			isa = PBXGroup;
 			children = (
+				5EA86EFA26DA120400EDD911 /* StringsAndCharacters.playground */,
 				5E4B38C526CC8A9600BDE00D /* Operators.playground */,
+				5ECA875626E04AA300593428 /* CollectionTypes.playground */,
 			);
 			path = BasicOperators;
 			sourceTree = "<group>";
@@ -81,6 +87,24 @@
 				5E15EF4F26CB3F4E008FB932 /* AssertionsAndPreconditions.playground */,
 			);
 			path = TheBasics;
+			sourceTree = "<group>";
+		};
+		5ECA875226DF033000593428 /* Swift4ErrorType */ = {
+			isa = PBXGroup;
+			children = (
+				5ECA875426DF035A00593428 /* Swift4ErrorTypeViewController.swift */,
+			);
+			path = Swift4ErrorType;
+			sourceTree = "<group>";
+		};
+		5ECA875326DF033E00593428 /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				5ECA875226DF033000593428 /* Swift4ErrorType */,
+				5ED1644C26C23C450077878B /* LockStateDetection */,
+				5E15EF4C26C9E459008FB932 /* PasswordLockForType */,
+			);
+			path = Feature;
 			sourceTree = "<group>";
 		};
 		5ED1642A26C23B890077878B = {
@@ -102,9 +126,8 @@
 		5ED1643526C23B890077878B /* ConvinientWriting */ = {
 			isa = PBXGroup;
 			children = (
+				5ECA875326DF033E00593428 /* Feature */,
 				5ED1644A26C23B9A0077878B /* Playground */,
-				5E15EF4C26C9E459008FB932 /* PasswordLockForType */,
-				5ED1644C26C23C450077878B /* LockStateDetection */,
 				5ED1643626C23B890077878B /* AppDelegate.swift */,
 				5ED1643826C23B890077878B /* SceneDelegate.swift */,
 				5ED1643A26C23B890077878B /* ViewController.swift */,
@@ -207,6 +230,7 @@
 				5ED1644E26C23C640077878B /* LockStateDetectionViewController.swift in Sources */,
 				5ED1643726C23B890077878B /* AppDelegate.swift in Sources */,
 				5E15EF4E26C9E479008FB932 /* PasswordLockForTypeViewController.swift in Sources */,
+				5ECA875526DF035A00593428 /* Swift4ErrorTypeViewController.swift in Sources */,
 				5ED1643926C23B890077878B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
